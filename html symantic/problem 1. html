@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLA University - Admission Portal</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>GLA University</h1>
+        <h2>Greater Noida</h2>
+        <p>University Admissions & Student Portal</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#programs">Programs</a> |
+            <a href="#admissions">Admissions</a> |
+            <a href="#scholarships">Scholarships</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to GLA University</h2>
+
+            <p>
+                <strong>GLA University</strong> is a leading university in
+                Greater Noida offering quality education and modern facilities
+                for students.
+            </p>
+
+            <p>
+                Students can explore different academic programs, admission
+                requirements, scholarships and campus facilities through this
+                portal.
+            </p>
+
+            <figure>
+                <img src="https://www.gla.ac.in/images/logo.png"
+                     alt="GLA University Logo"
+                     width="250">
+                <figcaption>GLA University</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Programs Section -->
+        <section id="programs">
+            <h2>Our Programs</h2>
+
+            <p>GLA University offers various programs for students.</p>
+
+            <ul>
+                <li>Bachelor of Technology</li>
+                <li>Bachelor of Computer Applications</li>
+                <li>Bachelor of Business Administration</li>
+                <li>Master of Computer Applications</li>
+                <li>Master of Business Administration</li>
+            </ul>
+
+            <h3>Popular Program</h3>
+
+            <figure>
+                <a href="https://www.gla.ac.in/" target="_blank">
+                    <img src="https://www.gla.ac.in/images/about.jpg"
+                         alt="GLA University Campus"
+                         width="400">
+                </a>
+                <figcaption>Visit the GLA University website</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Eligibility Section -->
+        <section id="eligibility">
+            <h2>Eligibility</h2>
+
+            <dl>
+                <dt><strong>Eligibility</strong></dt>
+                <dd>
+                    Students must fulfill the academic requirements of
+                    the selected program.
+                </dd>
+
+                <dt><strong>Merit List</strong></dt>
+                <dd>
+                    Students may be selected according to their academic
+                    performance and admission criteria.
+                </dd>
+
+                <dt><strong>Scholarship</strong></dt>
+                <dd>
+                    Eligible students can apply for scholarships according
+                    to university rules.
+                </dd>
+
+                <dt><strong>Application Fee</strong></dt>
+                <dd>
+                    Students may need to pay the applicable application fee
+                    during registration.
+                </dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <!-- Facilities Section -->
+        <section id="facilities">
+            <h2>Campus Facilities</h2>
+
+            <p>Some facilities available for students are:</p>
+
+            <ul>
+                <li>Modern Classrooms</li>
+                <li>Computer Laboratories</li>
+                <li>Central Library</li>
+                <li>Sports Facilities</li>
+                <li>Hostel Facilities</li>
+                <li>Cafeteria</li>
+            </ul>
+
+            <figure>
+                <img src="https://www.gla.ac.in/images/campus.jpg"
+                     alt="GLA University Campus Facilities"
+                     width="400">
+                <figcaption>Campus Facilities</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Important Notice -->
+        <article>
+            <h2>Important Admission Notice</h2>
+
+            <p>
+                <mark>Admissions are open for the new academic session.</mark>
+            </p>
+
+            <p>
+                Students should check the eligibility requirements and
+                submit their application before the last date.
+            </p>
+
+            <p>
+                <em>Keep all required documents ready before applying.</em>
+            </p>
+        </article>
+
+        <hr>
+
+        <!-- Application Steps -->
+        <section id="admissions">
+            <h2>Application Process</h2>
+
+            <ol>
+                <li>Visit the admission portal.</li>
+                <li>Register using your email and mobile number.</li>
+                <li>Fill in the application form.</li>
+                <li>Upload the required documents.</li>
+                <li>Pay the application fee.</li>
+                <li>Submit the application form.</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Admission Table -->
+        <section>
+            <h2>Admission Programs</h2>
+
+            <table border="1">
+                <caption>GLA University Program Details</caption>
+
+                <thead>
+                    <tr>
+                        <th>Program</th>
+                        <th>Duration</th>
+                        <th>Eligibility</th>
+                        <th>Mode</th>
+                        <th>Intake</th>
+                        <th>Fee</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>B.Tech</td>
+                        <td>4 Years</td>
+                        <td>12th Pass</td>
+                        <td>Regular</td>
+                        <td>120</td>
+                        <td>As per University</td>
+                    </tr>
+
+                    <tr>
+                        <td>BCA</td>
+                        <td>3 Years</td>
+                        <td>12th Pass</td>
+                        <td>Regular</td>
+                        <td>60</td>
+                        <td>As per University</td>
+                    </tr>
+
+                    <tr>
+                        <td>BBA</td>
+                        <td>3 Years</td>
+                        <td>12th Pass</td>
+                        <td>Regular</td>
+                        <td>60</td>
+                        <td>As per University</td>
+                    </tr>
+
+                    <tr>
+                        <td>MCA</td>
+                        <td>2 Years</td>
+                        <td>Graduation</td>
+                        <td>Regular</td>
+                        <td>60</td>
+                        <td>As per University</td>
+                    </tr>
+
+                    <tr>
+                        <td>MBA</td>
+                        <td>2 Years</td>
+                        <td>Graduation</td>
+                        <td>Regular</td>
+                        <td>120</td>
+                        <td>As per University</td>
+                    </tr>
+
+                    <tr>
+                        <td>B.Pharm</td>
+                        <td>4 Years</td>
+                        <td>12th Science</td>
+                        <td>Regular</td>
+                        <td>100</td>
+                        <td>As per University</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Scholarship -->
+        <section id="scholarships">
+            <h2>Scholarships</h2>
+
+            <p>
+                GLA University provides scholarship opportunities to eligible
+                students based on academic performance and other criteria.
+            </p>
+
+            <ul>
+                <li>Merit Based Scholarship</li>
+                <li>Academic Performance Scholarship</li>
+                <li>Sports Scholarship</li>
+                <li>Other University Scholarships</li>
+            </ul>
+
+            <figure>
+                <a href="https://www.gla.ac.in/" target="_blank">
+                    <img src="https://www.gla.ac.in/images/scholarship.jpg"
+                         alt="GLA University Scholarship Information"
+                         width="400">
+                </a>
+                <figcaption>Click the image to visit the university website</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Student/Alumni Blockquote -->
+        <section>
+            <h2>Student Experience</h2>
+
+            <blockquote>
+                "GLA University provides students with opportunities to learn,
+                develop skills and participate in different activities."
+            </blockquote>
+
+            <p>
+                <small>Student and Alumni Feedback</small>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Aside -->
+        <aside>
+            <h2>Application Help</h2>
+
+            <p>
+                Need help with your application?
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:admissions@gla.ac.in">
+                    admissions@gla.ac.in
+                </a>
+            </p>
+
+            <p>
+                Visit:
+                <a href="https://www.gla.ac.in/" target="_blank">
+                    GLA University Official Website
+                </a>
+            </p>
+        </aside>
+
+        <hr>
+
+        <!-- Apply Now Form -->
+        <section>
+            <h2>Apply Now</h2>
+
+            <form>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <label for="program">Select Program:</label>
+
+                <select id="program" name="program">
+                    <option value="">Select Program</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="bca">BCA</option>
+                    <option value="bba">BBA</option>
+                    <option value="mca">MCA</option>
+                    <option value="mba">MBA</option>
+                    <option value="bpharm">B.Pharm</option>
+                </select>
+
+                <br><br>
+
+                <p>Study Mode:</p>
+
+                <input type="radio" id="regular" name="mode" value="regular">
+                <label for="regular">Regular</label>
+
+                <input type="radio" id="online" name="mode" value="online">
+                <label for="online">Online</label>
+
+                <br><br>
+
+                <label for="address">Address:</label>
+                <br>
+
+                <textarea id="address" name="address"
+                          rows="5" cols="40"
+                          placeholder="Enter your address"></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="declaration" name="declaration" required>
+
+                <label for="declaration">
+                    I declare that the information provided by me is correct.
+                </label>
+
+                <br><br>
+
+                <input type="submit" value="Submit Application">
+                <input type="reset" value="Reset">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>Contact GLA University</h2>
+
+        <p>
+            GLA University, Greater Noida
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:info@gla.ac.in">info@gla.ac.in</a>
+        </p>
+
+        <p>
+            Website:
+            <a href="https://www.gla.ac.in/" target="_blank">
+                www.gla.ac.in
+            </a>
+        </p>
+
+        <p>
+            &copy; 2026 GLA University. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>

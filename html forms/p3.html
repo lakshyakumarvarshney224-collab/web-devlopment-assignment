@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Enrollment</title>
+</head>
+
+<body>
+
+<h2>Online Course Enrollment</h2>
+<p>Register for your technical course.</p>
+
+<form>
+
+Name: <input type="text" name="name" required><br><br>
+
+Email: <input type="email" name="email" required><br><br>
+
+Password: <input type="password" name="password" minlength="6" required><br><br>
+
+Mobile: <input type="tel" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+DOB: <input type="date" name="dob"><br><br>
+
+Course:
+<select name="course">
+<option>B.Tech</option>
+<option>Python</option>
+<option>Java</option>
+<option>Web Development</option>
+<option>Data Science</option>
+<option>Database</option>
+</select>
+<br><br>
+
+Batch:
+<select name="batch">
+<option>Morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+</select>
+<br><br>
+
+Learning:
+<input type="radio" name="learning" value="online">Online
+<input type="radio" name="learning" value="offline">Offline
+<input type="radio" name="learning" value="hybrid">Hybrid
+<br><br>
+
+Skills:<br>
+<input type="checkbox" name="skill" value="java">Java
+<input type="checkbox" name="skill" value="python">Python
+<input type="checkbox" name="skill" value="web">Web Development
+<input type="checkbox" name="skill" value="database">Database
+<br><br>
+
+Education:
+<select name="education">
+<option>12th</option>
+<option>Diploma</option>
+<option>Graduate</option>
+</select>
+<br><br>
+
+College: <input type="text" name="college"><br><br>
+
+Semester: <input type="number" name="semester" min="1" max="8"><br><br>
+
+Programming Experience:
+<input type="number" name="experience" min="0" max="20" step="1">
+<br><br>
+
+GitHub: <input type="url" name="github" placeholder="https://github.com/">
+<br><br>
+
+Learning Goals:<br>
+<textarea name="goals"></textarea>
+<br><br>
+
+<input type="checkbox" required> I confirm the information is correct.
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>

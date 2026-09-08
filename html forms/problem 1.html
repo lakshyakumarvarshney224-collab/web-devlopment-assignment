@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GLA University Admission Form</title>
+</head>
+
+<body>
+
+<h2>GLA University, Greater Noida</h2>
+<h3>College Admission Form</h3>
+
+<form>
+
+Name: <input type="text" name="name" required><br><br>
+
+DOB: <input type="date" name="dob" required><br><br>
+
+Email: <input type="email" name="email" required><br><br>
+
+Mobile: <input type="tel" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+PIN: <input type="password" name="pin" minlength="4" maxlength="6"><br><br>
+
+Gender:
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<br><br>
+
+Course:
+<select name="course">
+<option>B.Tech</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>B.Com</option>
+<option>BA</option>
+<option>B.Sc</option>
+</select>
+<br><br>
+
+Qualification: <input type="text" name="qualification"><br><br>
+
+Percentage: <input type="number" name="percentage" min="0" max="100"><br><br>
+
+Address:<br>
+<textarea name="address"></textarea><br><br>
+
+Document: <input type="file" name="document"><br><br>
+
+<input type="checkbox" required> I agree to the declaration.
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>

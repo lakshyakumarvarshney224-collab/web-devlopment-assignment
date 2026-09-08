@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Leave Request</title>
+</head>
+
+<body>
+
+<h2>Employee Leave Request Form</h2>
+
+<form>
+
+Name: <input type="text" name="name" required><br><br>
+
+Employee ID: <input type="text" name="id" required minlength="3" maxlength="10"><br><br>
+
+Email: <input type="email" name="email" required><br><br>
+
+Department:
+<select name="department">
+<option>HR</option>
+<option>IT</option>
+<option>Finance</option>
+<option>Sales</option>
+<option>Marketing</option>
+<option>Production</option>
+</select>
+<br><br>
+
+Leave Type:
+<select name="leave">
+<option>Casual Leave</option>
+<option>Sick Leave</option>
+<option>Earned Leave</option>
+<option>Work From Home</option>
+<option>Other</option>
+</select>
+<br><br>
+
+Start Date: <input type="date" name="start" required><br><br>
+
+End Date: <input type="date" name="end" required><br><br>
+
+Leave Days: <input type="number" name="days" min="1" max="30" step="1"><br><br>
+
+Reachable During Leave:
+<input type="radio" name="reachable" value="yes">Yes
+<input type="radio" name="reachable" value="no">No
+<br><br>
+
+Reason:<br>
+<textarea name="reason"></textarea><br><br>
+
+Alternate Contact:
+<input type="tel" name="contact" pattern="[0-9]{10}"><br><br>
+
+Document: <input type="file" name="document"><br><br>
+
+<input type="checkbox" required> I confirm that the information is correct.
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+<h3>Leave Categories</h3>
+
+<table border="1">
+<tr>
+<th>Leave</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Casual</td>
+<td>Personal work</td>
+</tr>
+<tr>
+<td>Sick</td>
+<td>Health reasons</td>
+</tr>
+<tr>
+<td>Earned</td>
+<td>Planned leave</td>
+</tr>
+</table>
+
+</body>
+</html>

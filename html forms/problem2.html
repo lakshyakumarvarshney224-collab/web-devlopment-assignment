@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital Appointment</title>
+</head>
+
+<body>
+
+<h2>Hospital Appointment Booking</h2>
+<p>Book your appointment online.</p>
+
+<form>
+
+Name: <input type="text" name="name" required><br><br>
+
+Email: <input type="email" name="email" required><br><br>
+
+Mobile: <input type="tel" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+DOB: <input type="date" name="dob"><br><br>
+
+Appointment: <input type="date" name="date" required>
+<input type="time" name="time" required><br><br>
+
+Doctor:
+<select name="doctor">
+<option>Dr. Amit - Cardiology</option>
+<option>Dr. Neha - Dentist</option>
+<option>Dr. Rahul - Neurology</option>
+<option>Dr. Priya - Pediatrics</option>
+<option>Dr. Karan - Orthopedic</option>
+</select>
+<br><br>
+
+Visit:
+<input type="radio" name="visit" value="new">New
+<input type="radio" name="visit" value="followup">Follow-up
+<input type="radio" name="visit" value="consultation">Consultation
+<input type="radio" name="visit" value="emergency">Emergency
+<br><br>
+
+Communication:
+<select name="communication">
+<option>Email</option>
+<option>Phone</option>
+<option>SMS</option>
+</select>
+<br><br>
+
+Patient ID: <input type="text" name="id"><br><br>
+
+Reason:<br>
+<textarea name="reason"></textarea><br><br>
+
+<input type="checkbox" required> I accept the appointment terms.
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+<h3>Clinic Timings</h3>
+
+<table border="1">
+<tr><th>Day</th><th>Time</th></tr>
+<tr><td>Monday-Friday</td><td>9 AM - 5 PM</td></tr>
+<tr><td>Saturday</td><td>9 AM - 1 PM</td></tr>
+</table>
+
+<p><a href="tel:112">Emergency Contact</a></p>
+
+</body>
+</html>
